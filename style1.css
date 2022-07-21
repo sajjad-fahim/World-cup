@@ -1,0 +1,171 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 50px 140px;
+}
+
+.three {
+    width: 531px;
+    height: 424px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 87px 77px 135px 113px;
+}
+
+.one {
+    width: 531px;
+    height: 240px;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.two {
+    width: 506px;
+    height: 78px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.four img {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-right: 80px;
+}
+
+.five {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* display: grid;
+grid-template-columns: repeat(2, 1fr); */
+}
+
+.six {
+    display: flex;
+    justify-content: space-evenly;
+    width: 187px;
+    height: 56px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 1px solid red;
+    background: #DD0000;
+    border-radius: 5px;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.seven {
+    /* display: flex; */
+    height: 646px;
+    width: 1321px;
+    background: #161616;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.side-nav {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.nav {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 30px;
+    align-items: center;
+}
+
+.link {
+    width: 252px;
+    height: 64px;
+    text-decoration: none;
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: black
+}
+
+#third-link {
+    background-color: #DD0000;
+}
+
+.foter {
+    width: 1800px;
+    height: 444px;
+    background: #161616;
+}
+
+.foter hr {
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.goal {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 130px;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    color: #B9B9B9;
+    margin-top: 50px;
+    margin-bottom: 230px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.blog {
+    width: 312px;
+    height: 242px;
+    padding: 53px 30px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-flag {
+    width: 93.04px;
+    height: 56.18px;
+}
+
+.vs {
+    font-size: 16px;
+    margin: 5px 15px;
+}
+
+.flags {
+    display: flex;
+}
+
+.blog-info {
+    width: 202px;
+    height: 60px;
+    margin-left: 35px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    margin-left: 20px;
+}
